@@ -1,0 +1,106 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:id="@+id/relLayout"
+    tools:context="com.example.pinkas.MainActivity" >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/coefficient_size"
+        android:layout_above="@+id/coefficient_spinner"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/coefficientSizeText" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/coefficient_options"
+        android:id="@+id/coefficientOptionsText"
+        android:layout_alignTop="@+id/coefficientSizeText"
+        android:layout_toRightOf="@+id/coefficientSizeText"
+        android:layout_toEndOf="@+id/coefficientSizeText"
+        android:layout_marginLeft="54dp"
+        android:layout_marginStart="54dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/key_size"
+        android:id="@+id/keySizeText"
+        android:layout_above="@+id/key_spinner"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    
+    <Spinner
+    	android:id="@+id/coefficient_spinner"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+        android:layout_above="@+id/keySizeText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <Spinner
+    	android:id="@+id/key_spinner"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+        android:layout_above="@+id/start_button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start"
+        android:id="@+id/start_button"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/coefficientSizeText"
+        android:layout_toEndOf="@+id/coefficientSizeText" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Client (Alice) :"
+        android:id="@+id/clientTitle"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/keySizeText"
+        android:layout_alignEnd="@+id/keySizeText" />
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/coefficientSizeText"
+        android:layout_below="@+id/clientTitle">
+
+        <ScrollView
+            android:id="@+id/scroll_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/msg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </ScrollView>
+
+    </LinearLayout>
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/location_spinner"
+        android:layout_alignTop="@+id/key_spinner"
+        android:layout_toRightOf="@+id/coefficientOptionsText"
+        android:layout_toEndOf="@+id/coefficientOptionsText" />
+
+</RelativeLayout>
+<!-- From: file:/C:/Users/Ibrahim/AndroidstudioProjects/pinkas/app/src/main/res/layout/activity_main.xml -->

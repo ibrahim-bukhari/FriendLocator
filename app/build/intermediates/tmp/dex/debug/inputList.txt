@@ -1,0 +1,5 @@
+C:\Users\Ibrahim\AndroidstudioProjects\pinkas\app\build\intermediates\classes\debug
+C:\Users\Ibrahim\AndroidstudioProjects\pinkas\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-22bd2617a6945d1ac7f0ae1df952200f1c1e65b8.jar
+C:\Users\Ibrahim\AndroidstudioProjects\pinkas\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-67c82df4387b6d5f663ec9f86d7f3f9c30940dcf.jar
+C:\Users\Ibrahim\AndroidstudioProjects\pinkas\app\build\intermediates\pre-dexed\debug\classes-1c9e87eaf91a1a4eba8bb3a74ef8c27937aa3a2a.jar
+C:\Users\Ibrahim\AndroidstudioProjects\pinkas\app\build\intermediates\pre-dexed\debug\classes-0219751c2e3522e7b8dfe698e3b5dc451f1eff2c.jar
